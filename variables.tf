@@ -33,3 +33,15 @@ variable "firewall_k8s_internal_name" {
 variable "firewall_k8s_external_name" {
   default = "k8s-external"
 }
+
+variable "external_ip_name" {
+  default = "k8s-cluster"
+}
+
+variable "master_nodes_count" {
+  default = 3
+}
+
+variable "worker_nodes_count" {
+  default = 3
+}
